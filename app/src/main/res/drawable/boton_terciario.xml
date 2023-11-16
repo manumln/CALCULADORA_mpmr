@@ -1,0 +1,5 @@
+<!-- boton_terciario.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/boton_terciario_presionado" android:state_pressed="true"/>
+    <item android:drawable="@drawable/boton_terciario_no_presionado"/>
+</selector>

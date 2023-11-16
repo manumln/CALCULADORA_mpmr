@@ -1,0 +1,5 @@
+<!-- boton_secundario.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/boton_secundario_presionado" android:state_pressed="true"/>
+    <item android:drawable="@drawable/boton_secundario_no_presionado"/>
+</selector>

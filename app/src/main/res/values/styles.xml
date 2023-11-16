@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BotonPrincipal" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:onClick">onDigitClick</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/numeroButtonColor</item>
+    </style>
+
+    <style name="BotonPrincipal.NoPresionado" parent="BotonPrincipal">
+        <item name="android:background">@drawable/boton_principal_no_presionado</item>
+    </style>
+
+    <style name="BotonPrincipal.Presionado" parent="BotonPrincipal">
+        <item name="android:background">@drawable/boton_principal_presionado</item>
+    </style>
+
+    <!-- Style for the secondary buttons -->
+    <style name="BotonSecundario" parent="BotonPrincipal">
+        <!-- Agrega atributos específicos para los botones secundarios si es necesario -->
+    </style>
+
+    <!-- Button drawables for secondary button -->
+    <style name="BotonSecundario.NoPresionado" parent="BotonSecundario">
+        <item name="android:background">@drawable/boton_secundario_no_presionado</item>
+    </style>
+
+    <style name="BotonSecundario.Presionado" parent="BotonSecundario">
+        <item name="android:background">@drawable/boton_secundario_presionado</item>
+    </style>
+
+    <!-- Style for the tertiary buttons -->
+    <style name="BotonTerciario" parent="BotonPrincipal">
+        <!-- Agrega atributos específicos para los botones terciarios si es necesario -->
+    </style>
+
+    <style name="BotonTerciario.NoPresionado" parent="BotonTerciario">
+        <item name="android:background">@drawable/boton_terciario_no_presionado</item>
+    </style>
+
+    <style name="BotonTerciario.Presionado" parent="BotonTerciario">
+        <item name="android:background">@drawable/boton_terciario_presionado</item>
+    </style>
+
+</resources>
